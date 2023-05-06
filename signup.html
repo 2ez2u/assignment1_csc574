@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+<title>Sign up</title>
+<link rel="stylesheet" href="signup.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>  
+    body{  
+      font-family: Calibri, Helvetica, sans-serif;  
+      background-color: pink;  
+    }  
+    .container {  
+        padding: 50px;  
+      background-color: lightblue;  
+    }  
+      
+    input[type=text], input[type=password], textarea {  
+      width: 100%;  
+      padding: 15px;  
+      margin: 5px 0 22px 0;  
+      display: inline-block;  
+      border: none;  
+      background: #f1f1f1;  
+    }  
+    input[type=text]:focus, input[type=password]:focus {  
+      background-color: orange;  
+      outline: none;  
+    }  
+     div {  
+                padding: 10px 0;  
+             }  
+    hr {  
+      border: 1px solid #f1f1f1;  
+      margin-bottom: 25px;  
+    }  
+    .registerbtn {  
+      background-color: #4CAF50;  
+      color: white;  
+      padding: 16px 20px;  
+      margin: 8px 0;  
+      border: none;  
+      cursor: pointer;  
+      width: 100%;  
+      opacity: 0.9;  
+    }  
+    .registerbtn:hover {  
+      opacity: 1;  
+    }  
+    </style>  
+
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <a href="home.html">
+              <img src="sg.png" class="logo">
+            </a>
+                <ul>
+                    <li><a href="biography.html">Biography</a></li>
+                    <li><a href="r1.html">Resume</a></li>
+                    <li><a href="timetable.html">Time table</a></li>
+                    <li><a href="gallery.html">Galleries</a></li>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="link.html">Links</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+    
+    
+        </div>
+    
+        <br>  
+        <br>  
+        <form>  
+            <div class="container">  
+            <center>  <h1> Sign Up</h1> </center>  
+            <hr>  
+            <label> Firstname </label>   
+          <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+           
+          <label> Lastname: </label>    
+          <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+          <div>  
+          <label>   
+            Educational Background :  
+          </label>   
+            
+          <select>  
+          <option value="Educational Background">Educational Background</option>  
+          <option value="SPM">SPM</option>  
+          <option value="Diploma">Diploma</option>  
+          <option value="Degree">Degree</option>  
+          <option value="Master">Master</option>  
+          <option value="PhD">PhD</option>  
+          </select>  
+          </div>  
+          <div>  
+          <label>   
+          Gender :  
+          </label><br>  
+          <input type="radio" value="Male" name="gender" checked > Male   
+          <input type="radio" value="Female" name="gender"> Female   
+          
+            
+          </div>  
+          <label>   
+          Phone :  
+          </label>  
+          <input type="text" name="country code" placeholder="Country Code"   size="2"/>   
+          <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+          Current Address :  
+          <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+          </textarea>  
+           <label for="email"><b>Email</b></label>  
+           <input type="text" placeholder="Enter Email" name="email" required>  
+            
+           <label> User Name: </label>    
+           <input type="text" name="username" placeholder="User name" size="15"required />
+
+              <label for="psw"><b>Password</b></label>  
+              <input type="password" placeholder="Enter Password" name="psw" required>  
+            
+              <label for="psw-repeat"><b>Re-type Password</b></label>  
+              <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+              <button type="submit" class="registerbtn">Register</button>    
+          </form>  
+
+   
+
+    
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/profile.php?id=100009316288765&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/syamilghani02?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/syamil_17?t=9-Xn1rTk34vMkOR-IFVEaA&s=09"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy; Web Coding Pro. All Rights Reserved</p>
+            </div>
+         </div>   
+    </footer>
+    
+</div>
+    
+    </body>
+    </html>
